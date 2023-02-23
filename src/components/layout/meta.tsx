@@ -1,10 +1,10 @@
 import Head from "next/head";
 
-const DOMAIN = "https://ai-project-three.vercel.app";
+const DOMAIN = "https://cover-letter-gpt.vercel.app";
 
 export default function Meta({
-  title = "An AI Startup",
-  description = "This is an AI startup that you can use to generate image, fix grammar and restore image.",
+  title = "Cover Letter GPT",
+  description = "Create Cover Letter in Seconds with GPT 3",
   image = `${DOMAIN}/api/og`,
 }: {
   title?: string;

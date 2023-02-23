@@ -9,10 +9,6 @@ export default function Home() {
   return (
     <Layout>
       <Hero />
-      <Featrues />
-      <Brands />
-      <Testimonials />
-      <Pricing />
     </Layout>
   );
 }

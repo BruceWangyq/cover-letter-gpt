@@ -1,24 +1,18 @@
-# An AI Startup - Free AI Startup Sass Web APP Template
+# Cover-Letter-GPT
 
-Free, open-source, fullstack AI startup website comes with everything you need to launch a AI startup, business, or SaaS website, including GPT, Stable Diffusion technologies.
-
-![AI-Startup](./public/AI-Startup.png)
+Free, open-source, and easy to generate cover letters using GPT-3.
 
 ### ✨ Key Features
 
-- Crafted for Startup and SaaS Business
 - Next.js 13 and Tailwind CSS
-- All Essential Business Sections and Pages
-- AI applications for creating AI image, Chat and more!
-- Prisma, Supabase Database for User Login
-- High-quality and "Notion" Like Design
-- Dark and Light Toggle with Next Theme
-- Google Auth with NextAuth
-  and Much More Features Coming Up ...
+- GPT-3 API
+- Vercel Deployment
+- Fully Responsive
+- SEO Optimized
 
-### [🚀 View Demo](https://an-ai-startup.vercel.app//)
+### [🚀 View Demo](https://cover-letter-gpt.vercel.app)
 
-### [🔌 Gituh](https://github.com/BruceWangyq/ai-project)
+### [🔌 Gituh](https://github.com/BruceWangyq/cover-letter-gpt)
 
 ### [🐦Twitter](https://twitter.com/brucewangdev)
 

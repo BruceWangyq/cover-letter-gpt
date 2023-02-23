@@ -6,15 +6,6 @@ export default function Footer() {
       <div className="text-black dark:text-white">
         Powered by{" "}
         <Link
-          href="https://replicate.com/"
-          target="_blank"
-          rel="noreferrer"
-          className="font-bold hover:underline transition underline-offset-2"
-        >
-          Replicate
-        </Link>
-        ,{" "}
-        <Link
           href="https://platform.openai.com"
           target="_blank"
           rel="noreferrer"
@@ -47,7 +38,7 @@ export default function Footer() {
           </svg>
         </Link>
         <Link
-          href="https://github.com/BruceWangyq/ai-project"
+          href="https://github.com/BruceWangyq/cover-letter-gpt"
           target={"_blank"}
           className="group"
           aria-label="GitHub"

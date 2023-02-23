@@ -60,8 +60,8 @@ export default function Header() {
         <div className="container relative -mx-4 h-20 flex w-full items-center justify-between">
           <div className="w-full px-2 lg:ml-16 xl:mr-12">
             <Link href="/">
-              <h1 className="text-lg font-bold text-black dark:text-white">
-                An AI Startup
+              <h1 className="text-xl  font-extrabold text-orange-500">
+                Cover-Letter-GPT
               </h1>
             </Link>
           </div>
@@ -151,22 +151,7 @@ export default function Header() {
               </nav>
             </div>
 
-            <div className="flex justify-end pr-16 lg:pr-0 items-center">
-              <AnimatePresence>
-                {!session && status !== "loading" ? (
-                  <motion.button
-                    className="w-32 rounded-full border border-black bg-black dark:bg-white p-1.5 px-4 mx-6 text-sm text-white dark:text-black transition-all hover:bg-white dark:hover:bg-black hover:text-black dark:hover:text-white dark:hover:border-white"
-                    onClick={() => setShowSignInModal(true)}
-                    {...FADE_IN_ANIMATION_SETTINGS}
-                  >
-                    Sign In
-                  </motion.button>
-                ) : (
-                  <UserDropdown />
-                )}
-              </AnimatePresence>
-              <ThemeToggler />
-            </div>
+            <ThemeToggler />
           </div>
         </div>
       </header>
