@@ -60,7 +60,7 @@ const Home: NextPage = () => {
   return (
     <Layout>
       <div className="flex flex-col justify-center items-center mt-24">
-        <h1 className="sm:text-3xl text-2xl max-w-2xl font-bold text-orange-600 dark:text-orange-400 text-center">
+        <h1 className="sm:text-3xl text-xl max-w-2xl font-bold text-orange-600 dark:text-orange-400 text-center px-4 sm:px-0">
           Input the job description and your resume, and we will generate a
           customized cover letter for you.
         </h1>
@@ -69,7 +69,7 @@ const Home: NextPage = () => {
           <div className="grid md:grid-cols-2 mx-auto md:space-x-8 w-full">
             <div className="flex flex-col w-full mt-10 items-center justify-center px-8 md:px-0">
               <p className="text-left font-medium text-orange-700 dark:text-orange-300">
-                Input the job description.
+                Input The Job Description.
               </p>
               <textarea
                 value={jobDescription}
@@ -84,7 +84,7 @@ const Home: NextPage = () => {
 
             <div className="flex flex-col w-full mt-10 items-center justify-center px-8 md:px-0">
               <p className="text-left font-medium text-orange-700 dark:text-orange-300">
-                Input your resume.
+                Input Your Resume.
               </p>
 
               <textarea
@@ -111,7 +111,7 @@ const Home: NextPage = () => {
           )}
           {loading && (
             <button
-              className="bg-orange-500 dark:bg-orange-500 rounded-xl text-white dark:text-black font-medium px-4 py-2 sm:mt-10 mt-8 hover:bg-black/80 w-full dark:border-orange-500 dark:border-2"
+              className="bg-orange-500 dark:bg-orange-500 rounded-xl text-white dark:text-black font-medium px-4 py-2 sm:mt-10 mt-8 hover:bg-orange-700 w-full dark:border-orange-500 dark:border-2"
               disabled
             >
               <LoadingDots color="white" style="large" />

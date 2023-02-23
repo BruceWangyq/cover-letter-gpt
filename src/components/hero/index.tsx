@@ -21,20 +21,20 @@ const Hero = () => {
         </h1>
 
         <p className="mb-5 text-base font-medium !leading-relaxed text-black/50 dark:text-white/50 dark:opacity-90 sm:text-lg md:text-xl">
-          Input the job description and your resume, and we will generate a
-          customized cover letter for you.
+          Creating a cover letter is a tedious job. So I built this tool to help
+          you generate a cover letter in seconds to save your time.
         </p>
 
         <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
           <Link
             href="/cover-letter"
-            className="rounded-full bg-primary py-4 px-8 text-base font-semibold text-white dark:text-black bg-orange-500 dark:bg-orange-500 duration-300 ease-in-out hover:bg-orange-400 dark:hover:bg-white/80"
+            className="rounded-full bg-primary py-4 px-8  w-48 text-base font-semibold text-white dark:text-black bg-orange-500 dark:bg-orange-500 duration-300 ease-in-out hover:bg-orange-400 dark:hover:bg-white/80"
           >
             Get Started
           </Link>
           <Link
             href="https://github.com/BruceWangyq/cover-letter-gpt"
-            className="rounded-full bg-black/20 py-4 px-8 text-base font-semibold text-black duration-300 ease-in-out hover:bg-black/30 dark:bg-white/20 dark:text-white dark:hover:bg-white/30"
+            className="rounded-full bg-black/20 py-4 px-8 w-48 text-base font-semibold text-black duration-300 ease-in-out hover:bg-black/30 dark:bg-white/20 dark:text-white dark:hover:bg-white/30"
           >
             Star on GitHub
           </Link>
