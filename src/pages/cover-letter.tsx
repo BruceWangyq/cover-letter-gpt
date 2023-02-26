@@ -77,7 +77,7 @@ const Home: NextPage = () => {
                 rows={4}
                 className="w-full h-24 rounded-md border-2 p-3 border-orange-300 shadow-sm focus:border-black focus:ring-black my-5 mx-auto bg-white"
                 placeholder={
-                  "e.g. This is a sentence have a lot of grammar mistake."
+                  "e.g. here is a job description for a software engineer."
                 }
               />
             </div>
@@ -92,9 +92,7 @@ const Home: NextPage = () => {
                 onChange={(e) => setResume(e.target.value)}
                 rows={4}
                 className="w-full h-24 rounded-md border-2 p-3 border-orange-300 shadow-sm focus:border-black focus:ring-black my-5 mx-auto bg-white"
-                placeholder={
-                  "e.g. This is a sentence have a lot of grammar mistake."
-                }
+                placeholder={"e.g. here is a resume for a software engineer."}
               />
             </div>
           </div>
